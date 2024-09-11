@@ -1,3 +1,4 @@
+#Fixed-size Window
 class Solution:
     def countGoodSubstrings(self, s: str) -> int:
         i=j=0
