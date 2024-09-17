@@ -24,3 +24,9 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+#Time-Complexity = O(n)
+#Space-Complexity = O(1)
+#Naive approach
+#The naive approach to solve this problem is to reverse the string and then compare the reversed string with the original string.
+#If they match, the original string is a valid palindrome. Although this solution has a linear time complexity, it requires extra space to store the reversed string, making it less efficient in terms of space complexity. Therefore, we can use an optimized approach to save extra space.
